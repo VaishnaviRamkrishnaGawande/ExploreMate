@@ -1,0 +1,67 @@
+.booking-section {
+    background-color: #34495e; /* Darker background color */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Slightly darker shadow for depth */
+    margin: 20px auto;
+    max-width: 800px; /* Limit the width of the section */
+    color: white; /* Change text color to white for contrast */
+  }
+  
+  .booking-title {
+    font-size: 36px; /* Increased font size */
+    font-weight: 700; /* Bold font weight */
+    margin-bottom: 20px;
+    color: #ecf0f1; /* Lighter text color for the title */
+    text-transform: uppercase; /* Uppercase letters for emphasis */
+    letter-spacing: 2px; /* Increased letter spacing */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle text shadow for depth */
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between inputs */
+  }
+  
+  .search-input,
+  .date-input,
+  .guests-input {
+    padding: 10px;
+    border: 1px solid #7f8c8d; /* Light border */
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px; /* Fixed width for inputs */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    background-color: #2c3e50; /* Darker background for inputs */
+    color: white; /* Text color for inputs */
+  }
+  
+  .search-input::placeholder,
+  .guests-input::placeholder {
+    color: #bdc3c7; /* Placeholder color */
+  }
+  
+  .search-input:focus,
+  .date-input:focus,
+  .guests-input:focus {
+    border-color: #ff5722; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #ff5722; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for button */
+  }
+  
+  .search-button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+  }
